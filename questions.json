@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "title": "1. How do you give Ninjas directions?",
+        "answers": [
+            { "id": 0, "sentence": "Show them a map", "value": "A" },
+            { "id": 1, "sentence": "Give them a GPS device", "value": "B" },
+            { "id": 2, "sentence": "Let them alone", "value": "C" }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "2. Has a ninja feelings ?",
+        "answers": [
+            { "id": 0, "sentence": "No it's a beast", "value": "A" },
+            { "id": 1, "sentence": "Yes he's human", "value": "B" }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "3. How do we recognize a ninja ?",
+        "answers": [
+            { "id": 0, "sentence": "You'll recognize the outfits", "value": "A" },
+            { "id": 1, "sentence": "The grim will tell you", "value": "B" }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "4. What is a ninja's favourite array method?",
+        "answers": [
+            { "id": 0, "sentence": "He prefers the forEach() method", "value": "A" },
+            { "id": 1, "sentence": "Maybe the map() method ?", "value": "B" }
+        ]
+    }
+]

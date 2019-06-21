@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quizz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="wvalueth=device-wvalueth, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./quizz.css">
+</head>
+
+<body>
+    <div>
+        <header class="intro py-3 bg-white text-center" id="top">
+            <div class="container">
+                <h2 class="text-primary display-3 my-4">Ninja quizz</h2>
+            </div>
+        </header>
+
+        <div class="text-center py-4 js-score d-none bg-light">
+            <div class="container lead">
+                <span class="js-score-inner"></span>
+                <p class=""><em class="js-comment-text"></em></p>
+            </div>
+        </div>
+
+
+        <div class="questions py-4 bg-primary">
+            <div class="container">
+                <form class="js-quizz">
+                    <div class="question text-white" id="js-question-container">
+                    </div>
+                    <div class="text-center"><input type="submit" value="Submit" class="btn btn-light"></div>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="./quizz.js" async defer></script>
+</body>
+
+</html>
